@@ -12,33 +12,54 @@
 
     <h1>Lista de Usuarios</h1>
 
-    <!-- Input para el buscador -->
-    <input type="text" id="search" placeholder="Buscar por nombre, email o ciudad...">
+    <!-- Input para el buscador -->n
+    <input type="text" id="searchInput" placeholder="Buscar por nombre, email o ciudad">
 
+ <form class="d-flex gap-2" role="search" action="/entrepreneurships/search">
+                <input class="form-control" type="search" placeholder="O ingresá lo que querés buscar..."
+                  aria-label="Search" name="keyword" />
+                <button class="btn btn-outline-light" style="background-color: var(--color-salmonRed)" type="submit">
+                  Buscar
+                </button>
+              </form>
+    <form action="/entrepreneurships/filter" method="GET" class="d-flex align-items-center gap-2">
 
+<button class="btn btn-outline-light" style="background-color: var(--color-salmonRed)" type="submit">
+                  Filtrar
+                </button>
+
+              </form>
   <!-- Tabla de usuarios -->
 
-<!--
-  <table>
+
+ 
+<table>
     <thead>
         <tr>
             <th>Nombre</th>
+            <th>Nombre de usuario</th>
             <th>Email</th>
             <th>Ciudad</th>
+            <th>Teléfono</th>
+            <th>Nombre de compañía</th>
         </tr>
     </thead>
     <tbody id="userTable">
-        <%  //users.forEach(user => { %>
+        <% users.forEach(user => { %>
             <tr>
-                <td><%= // user.name %></td>
-                <td><%= // user.email %></td>
-                <td><%= // user.address.city %></td>
+                <td><%= user.name %></td>
+                <td><%= user.username %></td>
+                <td><%= user.email %></td>
+                <td><%=  user.address.city %></td>
+                <td><%= user.phone %></td>
+                <td><%= user.company.name %></td>
             </tr>
-        <% //}) %>
+        <% }) %>
     </tbody>
-</table>
+<script src="/js/formHandler.js"></script>
+<script src="/js/search.js"></script>
+
 
 </body>
 </html>
 
--->

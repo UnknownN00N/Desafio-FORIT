@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action='/add' method="POST" id="userForm">
+
+    <h1>Agregado de Usuarios</h1>
+
+    <h3>Nombre</h3>
+    <label for="name"></label>
+    <input type="text" name="name" id="name">
+
+    <h3>Nombre de usuario</h3>
+    <label for="username"></label>
+    <input type="text" name="username" id="username">
+
+    <h3>Email</h3>
+    <label for="email"></label>
+    <input type="email" name="email" id="email">
+
+    <h3>Datos personales</h3>
+
+    <label for="address[street]"></label>
+    <input type="text" name="address[street]" id="address[street]">
+
+    <label for="address[suite]"></label>
+    <input type="text" name="address[suite]" id="address[suite]">
+
+    <label for="address[city]"></label>
+    <input type="text" name="address[city]" id="address[city]">
+
+    <label for="address[zipcode]"></label>
+    <input type="number" name="address[zipcode]" id="address[zipcode]">
+
+    <label for="address[geo[lat]]"></label>
+    <input type="number" name="address[geo[lat]]" id="address[geo[lat]]">
+    
+    <label for="address[geo[lng]]"></label>
+    <input type="number" name="address[geo[lng]]" id="address[geo[lng]]">
+
+    <h3>Teléfono</h3>
+    <label for="phone"></label>
+    <input type="tel" name="phone" id="phone">
+
+    <h3>Website</h3>
+    <label for="website"></label>
+    <input type="text" name="website" id="website">
+
+
+    <h3>Detalles de Compañía</h3>
+      <label for="company[name]"></label>
+    <input type="text" name="company[name]" id="company[name]">
+
+    <label for="company[name]"></label>
+    <input type="text" name="company[catchPhrase]" id="company[catchPhrase]">
+
+    <label for="company[bs]"></label>
+    <input type="text" name="company[bs]" id="company[bs]">
+
+    <button type="submit">Cargar</button>
+    <script src="/js/formHandler.js"></script>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,278 @@
+[
+  {
+    "id": 11,
+    "name": "ujer",
+    "username": "Lemao",
+    "email": "nabixi5776@pixdd.com",
+    "address": {
+      "street": "asdadaa",
+      "suite": "aaaa",
+      "city": "ssssss",
+      "zipcode": "2131",
+      "geo": {
+        "lat": "121122",
+        "lng": "2121"
+      }
+    },
+    "phone": "3131-111",
+    "website": "wWedatpa",
+    "company": {
+      "name": "Dexopt",
+      "catchPhrase": "asddwd",
+      "bs": "1243141"
+    }
+  },
+  {
+    "id": 12,
+    "name": "ombre",
+    "username": "Lemao",
+    "email": "nabixi5776@pixdd.com",
+    "address": {
+      "street": "asdadaa",
+      "suite": "aaaa",
+      "city": "ssssss",
+      "zipcode": "2131",
+      "geo": {
+        "lat": "121122",
+        "lng": "2121"
+      }
+    },
+    "phone": "3131-111",
+    "website": "wWedatpa",
+    "company": {
+      "name": "Dexopt",
+      "catchPhrase": "asddwd",
+      "bs": "1243141"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Salsa",
+    "username": "deChocolate",
+    "email": "nabixi5776@pixdd.com",
+    "address": {
+      "street": "asdada",
+      "suite": "aaaa",
+      "city": "adada",
+      "zipcode": "21231",
+      "geo": {
+        "lat": "131313",
+        "lng": "12313113313"
+      }
+    },
+    "phone": "1212121",
+    "website": "wWedatpa",
+    "company": {
+      "name": "Dexopt",
+      "catchPhrase": "asddwd",
+      "bs": "1243141"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Salsa",
+    "username": "deChocolate",
+    "email": "nabixi5776@pixdd.com",
+    "address": {
+      "street": "asdada",
+      "suite": "aaaa",
+      "city": "adada",
+      "zipcode": "21231",
+      "geo": {
+        "lat": "131313",
+        "lng": "12313113313"
+      }
+    },
+    "phone": "1212121",
+    "website": "wWedatpa",
+    "company": {
+      "name": "Dexopt",
+      "catchPhrase": "asddwd",
+      "bs": "1243141"
+    }
+  },
+  {
+    "id": 15,
+    "name": "ombre",
+    "username": "feder.gimenez",
+    "email": "nabixi5776@pixdd.com",
+    "address": {
+      "street": "asdada",
+      "suite": "da",
+      "city": "adada",
+      "zipcode": "101001",
+      "geo": {
+        "lat": "13332131",
+        "lng": "13131311"
+      }
+    },
+    "phone": "12121<<-11-11",
+    "website": "wWedatpa",
+    "company": {
+      "name": "da",
+      "catchPhrase": "ada",
+      "bs": "1243141"
+    }
+  },
+  {
+    "id": 16,
+    "name": "ombre",
+    "username": "feder.gimenez",
+    "email": "nabixi5776@pixdd.com",
+    "address": {
+      "street": "asdada",
+      "suite": "da",
+      "city": "adada",
+      "zipcode": "101001"
+    },
+    "address[geo": {
+      "lat": "13332131",
+      "lng": "13131311"
+    },
+    "phone": "12121<<-11-11",
+    "website": "wWedatpa",
+    "company": {
+      "name": "da",
+      "catchPhrase": "ada",
+      "bs": "1243141"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Ejemplar",
+    "username": "Unico",
+    "email": "rabino5776@pixdd.com",
+    "address": {
+      "street": "asdada",
+      "suite": "aaaa",
+      "city": "adada",
+      "zipcode": "111"
+    },
+    "address[geo": {
+      "lat": "11111",
+      "lng": "1111"
+    },
+    "phone": "2954-5098",
+    "website": "Wattpad.com",
+    "company": {
+      "name": "Google",
+      "catchPhrase": "1212",
+      "bs": "12121"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Ejemplar",
+    "username": "Unico",
+    "email": "rabino5776@pixdd.com",
+    "address": {
+      "street": "asdada",
+      "suite": "aaaa",
+      "city": "adada",
+      "zipcode": "111",
+      "geo": {
+        "lat": "11111",
+        "lng": "1111"
+      }
+    },
+    "phone": "2954-5098",
+    "website": "Wattpad.com",
+    "company": {
+      "name": "Google",
+      "catchPhrase": "1212",
+      "bs": "12121"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Negro",
+    "username": "azul",
+    "email": "feder.gimenez99@gmail.com",
+    "address": {
+      "street": "aloasoad",
+      "suite": "Pelos",
+      "city": "al",
+      "zipcode": "69",
+      "geo": {
+        "lat": "424421",
+        "lng": "111111"
+      }
+    },
+    "phone": "1724556",
+    "website": "Wattpad.com",
+    "company": {
+      "name": "Google",
+      "catchPhrase": "Depota",
+      "bs": "aaa"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Negro",
+    "username": "SoyUnsuuauiro",
+    "email": "feder.gimenez99@gmail.com",
+    "address": {
+      "street": "aloasoad",
+      "suite": "Pelos",
+      "city": "al",
+      "zipcode": "69",
+      "geo": {
+        "lat": "424421",
+        "lng": "111111"
+      }
+    },
+    "phone": "1724556",
+    "website": "Wattpad.com",
+    "company": {
+      "name": "Google",
+      "catchPhrase": "Depota",
+      "bs": "aaa"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Negro",
+    "username": "SoyUnsuuauiro",
+    "email": "feder.gimenez99@gmail.com",
+    "address": {
+      "street": "aloasoad",
+      "suite": "Pelos",
+      "city": "al",
+      "zipcode": "69",
+      "geo": {
+        "lat": "424421",
+        "lng": "111111"
+      }
+    },
+    "phone": "1724556",
+    "website": "Wattpad.com",
+    "company": {
+      "name": "Google",
+      "catchPhrase": "Depota",
+      "bs": "aaa"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Telodije",
+    "username": "11owes",
+    "email": "nabixi5776@pixdd.com",
+    "address": {
+      "street": "asdadaa",
+      "suite": "ada",
+      "city": "asda",
+      "zipcode": "213113",
+      "geo": {
+        "lat": "131",
+        "lng": "123131"
+      }
+    },
+    "phone": "20022111",
+    "website": "Monserrat.com",
+    "company": {
+      "name": "CAT",
+      "catchPhrase": "ada",
+      "bs": "ada"
+    }
+  }
+]
