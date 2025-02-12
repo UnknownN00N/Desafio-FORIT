@@ -27,7 +27,7 @@ document.getElementById('searchInput').addEventListener('input', async function(
       <h3>Localidad:</h3>
     <div class="userCard__Box">
     <i class="fa-solid fa-location-dot"></i>
-    <p>${user.email}</p> 
+    <p>${user.address.city}</p> 
   </div>
   </div>
     
@@ -37,7 +37,7 @@ document.getElementById('searchInput').addEventListener('input', async function(
         <h3>Contacto:</h3>
           <div class="userCard__Box">
           <i class="fa-solid fa-envelope"></i>
-          <p>${user.address.city}</p>
+          <p>${user.email}</p>
           </div>
           <div class="userCard__Box">
           <i class="fa-solid fa-phone"></i>
