@@ -17,6 +17,7 @@
     display: flex;
     flex-direction: column;
     gap: 7px;
+    align-items: center;
 }
 
 
@@ -42,9 +43,10 @@
 
 
 .buttonPublish-box{
-    text-align: end;
     margin-top: 10px;
     margin-bottom: 5px;
+    text-align: center;
+    margin-left: 180px;
 }
 
 .publishUser--button{
