@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: var(--color-negroCarbon);
+    font-family: 'Inter', serif;
+    font-weight: 300;
+    font-style: normal;
+    font-optical-sizing: auto;
+    color: var(--color-blancoApagado);
+    padding:0px;
+    margin: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+@media (min-width: 600px) and (max-width: 1024px) {
+
+
+}
+
+
+@media (min-width: 1025px) {
+
+
+}

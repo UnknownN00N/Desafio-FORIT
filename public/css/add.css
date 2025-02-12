@@ -1,0 +1,73 @@
+
+.titleBoxAdd{
+    margin-bottom: 10px;
+    font-size: 1.2rem;   
+}
+
+.titleBoxAdd h1{
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+.realUserAddForm{
+     padding-left: 10px;
+}
+
+.formInputs{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+
+.addBox{
+    margin-bottom: 5px;
+}
+
+.addBox h3{
+    margin-bottom: 3px;
+}
+
+.inputContainer{
+
+}
+
+.inputContainer input{
+    padding: 10px 5px;
+    width: 290px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;    
+}
+
+
+.buttonPublish-box{
+    text-align: end;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.publishUser--button{
+    margin-bottom: 10px;
+    background-color: var(--color-morado);
+    border: none;
+    color: var(--color-blancoApagado);
+    border-radius: 7px;
+    padding: 7px 20px;
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+
+@media (min-width: 600px) and (max-width: 1024px) {
+
+
+}
+
+
+@media (min-width: 1025px) {
+
+
+}

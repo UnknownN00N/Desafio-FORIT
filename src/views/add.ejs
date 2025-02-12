@@ -4,64 +4,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel = "stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/8b20537db2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <form action='/add' method="POST" id="userForm">
 
-    <h1>Agregado de Usuarios</h1>
+  <div class="topMenu">
+    <div class="titleBoxAdd">
+<h1>Agregado de Usuarios</h1>
+    </div>
+  </div>
 
+    <form class="realUserAddForm" action='/add' method="POST" id="userForm">
+     
+    <section class="formInputs">
+    <div class="addBox">
     <h3>Nombre</h3>
+    <div class="inputContainer">
     <label for="name"></label>
-    <input type="text" name="name" id="name">
+    <input type="text" name="name" id="name" placeholder="Ingrese un nombre">
+</div>
+</div>
+<div class="addBox">
 
     <h3>Nombre de usuario</h3>
+    <div class="inputContainer">
     <label for="username"></label>
-    <input type="text" name="username" id="username">
+    <input type="text" name="username" id="username" placeholder="Ingrese un nombre de usuario">
+</div>
+</div>
 
+<div class="addBox">
     <h3>Email</h3>
+    <div class="inputContainer">
     <label for="email"></label>
-    <input type="email" name="email" id="email">
+    <input type="email" name="email" id="email" placeholder="Ingrese un correo electrónico">
+</div>
+</div>
 
+<div class="addBox">
     <h3>Datos personales</h3>
-
+    <div class="inputContainer">
     <label for="address[street]"></label>
-    <input type="text" name="address[street]" id="address[street]">
+    <input type="text" name="address[street]" id="address[street]" placeholder="Ingrese una calle">
+    </div>
+</div>
 
+<div class="addBox">
+    <div class="inputContainer">
     <label for="address[suite]"></label>
-    <input type="text" name="address[suite]" id="address[suite]">
+    <input type="text" name="address[suite]" id="address[suite]" placeholder="Ingrese un suite">
+    </div>
+</div>
 
+<div class="addBox">
+    <div class="inputContainer">
     <label for="address[city]"></label>
-    <input type="text" name="address[city]" id="address[city]">
+    <input type="text" name="address[city]" id="address[city]" placeholder="Ingrese una ciudad">
+    </div>
+</div>
 
+<div class="addBox">
+    <div class="inputContainer">
     <label for="address[zipcode]"></label>
-    <input type="number" name="address[zipcode]" id="address[zipcode]">
+    <input type="number" name="address[zipcode]" id="address[zipcode]" placeholder="Ingrese un código postal">
+    </div>
+    </div>
 
+    <div class="addBox">
+    <div class="inputContainer">
     <label for="address[geo[lat]]"></label>
-    <input type="number" name="address[geo[lat]]" id="address[geo[lat]]">
-    
+    <input type="number" name="address[geo[lat]]" id="address[geo[lat]]" placeholder="Ingrese una latitud">
+    </div>
+    </div>
+
+    <div class="addBox">
+    <div class="inputContainer">
     <label for="address[geo[lng]]"></label>
-    <input type="number" name="address[geo[lng]]" id="address[geo[lng]]">
+    <input type="number" name="address[geo[lng]]" id="address[geo[lng]]" placeholder="Ingrese una longitud">
+    </div>
+    </div>
 
+<div class="addBox">
     <h3>Teléfono</h3>
+    <div class="inputContainer">
     <label for="phone"></label>
-    <input type="tel" name="phone" id="phone">
+    <input type="tel" name="phone" id="phone" placeholder="Ingrese un número telefónico">
+    </div>
+</div>
 
+<div class="addBox">
     <h3>Website</h3>
+    <div class="inputContainer">
     <label for="website"></label>
-    <input type="text" name="website" id="website">
+    <input type="text" name="website" id="website" placeholder="Ingrese un sitio web">
+    </div>
+</div>
 
-
+<div class="addBox">
     <h3>Detalles de Compañía</h3>
+    <div class="inputContainer">
       <label for="company[name]"></label>
-    <input type="text" name="company[name]" id="company[name]">
+    <input type="text" name="company[name]" id="company[name]" placeholder="Ingrese el nombre de una compañia">
+    </div>
+</div>
 
+<div class="addBox">
+    <div class="inputContainer">
     <label for="company[name]"></label>
-    <input type="text" name="company[catchPhrase]" id="company[catchPhrase]">
+    <input type="text" name="company[catchPhrase]" id="company[catchPhrase]" placeholder="Ingrese el eslogan">
+    </div>
+</div>
 
+<div class="addBox">
+    <div class="inputContainer">
     <label for="company[bs]"></label>
-    <input type="text" name="company[bs]" id="company[bs]">
-
-    <button type="submit">Cargar</button>
+    <input type="text" name="company[bs]" id="company[bs]" placeholder="Ingrese el BS">
+    </div>
+  </div>
+</section>
+<div class="buttonPublish-box">
+    <button class="addUser--button" type="submit">Cargar</button>
+  </div>
     <script src="/js/formHandler.js"></script>
 
     </form>
